@@ -8,16 +8,15 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import com.synechron.selenium.actitime.utils.DriverUtils;
+
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class AutoSuggestions {
 
 	public static void main(String[] args) throws InterruptedException {
 		
-		WebDriverManager.chromedriver().setup();
-		WebDriver driver  =  new ChromeDriver();
-		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-		
+		WebDriver driver  = DriverUtils.getDriver();
 		
 		driver.get("https://www.google.com/");
 		driver.findElement(By.name("q")).sendKeys("Synechron");
