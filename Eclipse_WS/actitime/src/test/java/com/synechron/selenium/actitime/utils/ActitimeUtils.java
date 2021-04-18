@@ -5,6 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Mouse;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 
 public class ActitimeUtils extends DriverUtils {
 
@@ -13,11 +14,19 @@ public class ActitimeUtils extends DriverUtils {
 		driver.findElement(By.id("username")).sendKeys(un);
 		driver.findElement(By.name("pwd")).sendKeys(pwd);
 		driver.findElement(By.id("loginButton")).click();
+		try {
+			Thread.sleep(4000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		Assert.assertEquals(driver.getTitle(), "actiTIME - Enter Time-Track");
 	}
 
 	public static void launch() {
 		System.out.println(" --- Launching application ---");
 		driver.get("http://localhost/login.do");
+		Assert.assertEquals(driver.getTitle(), "actiTIME - Login");
 	}
 	
 	public static void launch(String url) {
@@ -28,7 +37,8 @@ public class ActitimeUtils extends DriverUtils {
 	public static void logout() {
 		System.out.println("--- Logout and Close Browser ---");
 		driver.findElement(By.id("logoutLink")).click();
-		driver.close();
+		Assert.assertEquals(driver.getTitle(), "actiTIME - Login");
+		//driver.close();
 	}
 
 	public static void selectModule(String moduleName) {

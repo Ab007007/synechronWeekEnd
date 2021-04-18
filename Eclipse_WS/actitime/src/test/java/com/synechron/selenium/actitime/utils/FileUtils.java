@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.util.Date;
 import java.util.Properties;
 
 public class FileUtils {
@@ -27,13 +28,14 @@ public class FileUtils {
 		return value;
 	}
 
+	
+	public static String getDateAndTime()
+	{
+		return new Date().toString().replace(":", "_").replace(" ", "_");
+	}
 	public static void main(String[] args) throws IOException {
 
-		System.out.println(getPropertyValue("url"));
-		System.out.println(getPropertyValue("browser"));
-		System.out.println(getPropertyValue("timeout"));
-		System.out.println(getPropertyValue("username"));
-		System.out.println(getPropertyValue("password"));
+		System.out.println();
 
 	}
 
