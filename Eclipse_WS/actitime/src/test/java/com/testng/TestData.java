@@ -28,5 +28,25 @@ public class TestData {
 	    };
 	  }
 	  
+	  @DataProvider
+	  public Object[][] createtask() {
+	    return new Object[][] {
+	      new Object[] { "Task-1", "Apr-24-2021","writing" },
+	      new Object[] { "Task-1", "Apr-24-2021","analysis" },
+	      new Object[] { "Task-1", "Apr-24-2021","Non-Billable" },
+	      new Object[] { "Task-1", "Apr-24-2021","programming" },
+	    };
+	  }
+	  
+	  @DataProvider
+	  public Object[][] createtaskWithCondition() {
+	    return new Object[][] {
+	      new Object[] {"true", "Task-1", "Apr-24-2021","writing" },
+	      new Object[] {"true", "Task-1", "Apr-24-2021","analysis" },
+	      new Object[] {"false","Task-1", "Apr-24-2021","Non-Billable" },
+	      new Object[] {"true", "Task-1", "Apr-24-2021","programming" },
+	    };
+	  }
+	  
 	  
 }

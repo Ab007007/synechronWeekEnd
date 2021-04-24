@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.synechron.selenium.actitime.js.JavaScriptExecutionToEle">
+      <class name="com.testng.AutoSuggestionUsingGrid">
         <methods>
-          <include name="jsExecutionDemo"/>
+          <include name="autoSuggestionsTest"/>
         </methods>
-      </class> <!-- com.synechron.selenium.actitime.js.JavaScriptExecutionToEle -->
+      </class> <!-- com.testng.AutoSuggestionUsingGrid -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
