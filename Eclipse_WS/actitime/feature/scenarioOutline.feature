@@ -1,5 +1,5 @@
 Feature: Print AutoSuggestion
-
+	@googleexample @smoke
   Scenario Outline: Printing Auto suggestions for Synechron
     Given user is on google page
     When user enter <company>

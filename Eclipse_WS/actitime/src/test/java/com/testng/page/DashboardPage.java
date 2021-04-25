@@ -13,6 +13,15 @@ public class DashboardPage {
 	WebElement logoutLink;
 	
 	
+	@FindBy(xpath = "//div[text()='TASKS']/parent::a")
+	WebElement tasksLink;
+	
+	public void clickOnTasks()
+	{
+		tasksLink.click();
+		
+	}
+	
 	public void logout()
 	{
 		logoutLink.click();

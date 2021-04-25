@@ -7,9 +7,14 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features = "feature/development.feature",
+		features = "feature",
 		glue = {"stepdefinition"},
 		monochrome = true,
+		//tags = "@smoke",
+		//tags = "@smoke or @dt",
+		//tags = "@smoke and @regression",
+//		tags = "@smoke and not @regression",
+		tags = "@pom",
 //		dryRun = true,
 		plugin = {"pretty","junit:target/JunitReports/report.xml",
 					"json:target/Json/report.json",

@@ -8,8 +8,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import com.synechron.selenium.actitime.utils.ActitimeUtils;
 import com.synechron.selenium.actitime.utils.DriverUtils;
 
-import sun.java2d.pipe.hw.AccelDeviceEventListener;
-
 public class LoginTest {
 
 	public static void main(String[] args) {

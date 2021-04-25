@@ -1,17 +1,20 @@
 Feature: Print AutoSuggestion
 
+  @google @regression
   Scenario: Printing Auto suggestions for Synechron
     Given user is on google page
     When user enter synechron
     Then user is displayed with autosuggestions
     And user print the autosuggestion and close the browser
 
+  @onlygoogle @batch
   Scenario: Printing Auto suggestions for IBM
     Given user is on google page
     When user enter IBM
     Then user is displayed with autosuggestions
     And user print the autosuggestion and close the browser
 
+  @smoke @regression
   Scenario: Printing Auto suggestions for Wipro
     Given user is on google page
     When user enter Wipro

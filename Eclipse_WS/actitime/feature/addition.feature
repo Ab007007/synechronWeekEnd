@@ -1,3 +1,4 @@
+@add
 Feature: Addition
 
   Scenario: Addition

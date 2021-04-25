@@ -18,9 +18,9 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 
-public class GoogleSteps 
+public class GoogleSteps extends GlobalVariables
 {
-	WebDriver driver = null;
+	
 	List<WebElement> suggestions = null;
 	@Given("user is on google/yahoo/rediff (search )page")
 	public void user_is_on_google_page() {
@@ -29,13 +29,10 @@ public class GoogleSteps
 		driver.get("https://www.google.com/");
 	}
 	
-	
 	@When("user enter {}")
 	public void user_enter(String value) {
 		driver.findElement(By.name("q")).sendKeys(value);
 	}
-	
-	
 	
 	@Then("user is displayed with autosuggestions")
 	public void user_is_displayed_with_autosuggestions() {

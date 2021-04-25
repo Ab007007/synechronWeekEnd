@@ -1,8 +1,8 @@
 package com.testng;
 
 import org.testng.annotations.DataProvider;
-
 public class TestData {
+
 
 	
 	  
@@ -21,10 +21,10 @@ public class TestData {
 	  @DataProvider
 	  public Object[][] createcustomerdata() {
 	    return new Object[][] {
-	      new Object[] { "WE-TestNG-Cus1", "WE-TestNG-Cus1-Desc" },
-	      new Object[] { "WE-TestNG-Cus2", "WE-TestNG-Cus2-Desc" },
-	      new Object[] { "WE-TestNG-Cus3", "WE-TestNG-Cus3-Desc" },
-	      new Object[] { "WE-TestNG-Cus4", "WE-TestNG-Cus4-Desc" },
+	//      new Object[] { "WE-TestNG-Cus01", "WE-TestNG-Cus1-Desc" },
+	//     new Object[] { "WE-TestNG-Cus02", "WE-TestNG-Cus2-Desc" },
+	      new Object[] { "WE-TestNG-Cus03", "WE-TestNG-Cus3-Desc" },
+	//      new Object[] { "WE-TestNG-Cus04", "WE-TestNG-Cus4-Desc" },
 	    };
 	  }
 	  
