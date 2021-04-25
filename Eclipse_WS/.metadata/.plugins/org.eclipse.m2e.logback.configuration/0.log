@@ -4016,3 +4016,27 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: in comment 
 2021-04-25 22:33:55,183 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SynechronWeekendBatch\Eclipse_WS\actitime\src\main\resources
 2021-04-25 22:33:55,184 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2021-04-25 22:33:55,184 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SynechronWeekendBatch\Eclipse_WS\actitime\src\test\resources
+2021-04-26 00:12:48,403 [Worker-51: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-26 00:12:48,403 [Worker-51: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SynechronWeekendBatch\Eclipse_WS\actitime\src\main\resources
+2021-04-26 00:12:48,405 [Worker-51: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-26 00:12:48,405 [Worker-51: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SynechronWeekendBatch\Eclipse_WS\actitime\src\test\resources
+2021-04-26 00:13:09,218 [Worker-51: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-26 00:13:09,218 [Worker-51: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SynechronWeekendBatch\Eclipse_WS\actitime\src\main\resources
+2021-04-26 00:13:09,220 [Worker-51: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-26 00:13:09,220 [Worker-51: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SynechronWeekendBatch\Eclipse_WS\actitime\src\test\resources
+2021-04-26 00:16:58,072 [Worker-59: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-26 00:16:58,072 [Worker-59: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SynechronWeekendBatch\Eclipse_WS\actitime\src\main\resources
+2021-04-26 00:16:58,074 [Worker-59: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-26 00:16:58,075 [Worker-59: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SynechronWeekendBatch\Eclipse_WS\actitime\src\test\resources
+2021-04-26 00:17:04,977 [Worker-54: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-26 00:17:04,977 [Worker-54: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SynechronWeekendBatch\Eclipse_WS\actitime\src\main\resources
+2021-04-26 00:17:04,979 [Worker-54: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-26 00:17:04,979 [Worker-54: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SynechronWeekendBatch\Eclipse_WS\actitime\src\test\resources
+2021-04-26 00:17:25,888 [Worker-60: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-26 00:17:25,889 [Worker-60: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SynechronWeekendBatch\Eclipse_WS\actitime\src\main\resources
+2021-04-26 00:17:25,890 [Worker-60: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-26 00:17:25,890 [Worker-60: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SynechronWeekendBatch\Eclipse_WS\actitime\src\test\resources
+2021-04-26 00:17:44,008 [Worker-60: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-26 00:17:44,009 [Worker-60: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SynechronWeekendBatch\Eclipse_WS\actitime\src\main\resources
+2021-04-26 00:17:44,010 [Worker-60: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-26 00:17:44,010 [Worker-60: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SynechronWeekendBatch\Eclipse_WS\actitime\src\test\resources
