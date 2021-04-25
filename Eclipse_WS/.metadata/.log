@@ -423,3 +423,6 @@ java.io.IOException: https://cucumber.io/cucumber-eclipse/update-site is not a v
 
 !ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2021-04-25 22:56:03.176
 !MESSAGE No repository found at https://beust.com/eclipse..
+
+!ENTRY org.eclipse.jface.text 2 0 2021-04-26 00:12:42.874
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'

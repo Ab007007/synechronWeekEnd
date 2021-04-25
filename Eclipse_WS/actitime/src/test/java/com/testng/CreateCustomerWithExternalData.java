@@ -26,7 +26,7 @@ public class CreateCustomerWithExternalData
 		ActitimeUtils.login(un, pwd);
 	}
 	
-	@AfterMethod
+	@AfterMethod(alwaysRun = true)
 	public void getStatus(ITestResult result) {
 		
 		if (result.getStatus() == ITestResult.SUCCESS)

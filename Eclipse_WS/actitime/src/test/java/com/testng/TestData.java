@@ -1,5 +1,7 @@
 package com.testng;
 
+import java.util.Random;
+
 import org.testng.annotations.DataProvider;
 public class TestData {
 
@@ -23,7 +25,7 @@ public class TestData {
 	    return new Object[][] {
 	//      new Object[] { "WE-TestNG-Cus01", "WE-TestNG-Cus1-Desc" },
 	//     new Object[] { "WE-TestNG-Cus02", "WE-TestNG-Cus2-Desc" },
-	      new Object[] { "WE-TestNG-Cus03", "WE-TestNG-Cus3-Desc" },
+	      new Object[] { "WE-TestNG-Cus03" + new Random().nextInt(2000), "WE-TestNG-Cus3-Desc" },
 	//      new Object[] { "WE-TestNG-Cus04", "WE-TestNG-Cus4-Desc" },
 	    };
 	  }

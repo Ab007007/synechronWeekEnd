@@ -69,7 +69,7 @@ public class ActitimeUtils extends DriverUtils {
 		driver.findElement(By.id("customerLightBox_commitBtn")).click();
 
 		System.out.println("Waiting for the Visiblity of Toast message ");
-		WebDriverWait wait = new WebDriverWait(driver, 10);
+		WebDriverWait wait = new WebDriverWait(driver, 20);
 		WebElement sussessMsg = wait
 				.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//div[@class='toast']"))));
 		System.out.println("SUCCESS MESSAGE : " + sussessMsg.getText());
